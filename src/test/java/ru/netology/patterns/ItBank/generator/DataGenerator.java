@@ -1,4 +1,4 @@
-package ru.netology.patterns.itbank.data;
+package ru.netology.patterns.itbank.generator;
 
 import com.github.javafaker.Faker;
 import io.restassured.builder.RequestSpecBuilder;
