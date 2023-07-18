@@ -1,4 +1,4 @@
-package ru.netology.patterns.ibank.test;
+package ru.netology.patterns.itbank.test;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
