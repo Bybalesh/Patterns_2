@@ -1,4 +1,4 @@
-package ru.netology.patterns.itbank.test;
+package ru.netology.patterns.itbank;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
@@ -10,10 +10,10 @@ import static com.codeborne.selenide.Condition.exactText;
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
-import static ru.netology.patterns.ibank.data.DataGenerator.Registration.getRegisteredUser;
-import static ru.netology.patterns.ibank.data.DataGenerator.Registration.getUser;
-import static ru.netology.patterns.ibank.data.DataGenerator.getRandomLogin;
-import static ru.netology.patterns.ibank.data.DataGenerator.getRandomPassword;
+import static ru.netology.patterns.itbank.generator.DataGenerator.Registration.getRegisteredUser;
+import static ru.netology.patterns.itbank.generator.DataGenerator.Registration.getUser;
+import static ru.netology.patterns.itbank.generator.DataGenerator.getRandomLogin;
+import static ru.netology.patterns.itbank.generator.DataGenerator.getRandomPassword;
 
 class IBankTest {
     @BeforeEach
